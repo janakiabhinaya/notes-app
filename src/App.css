@@ -1,0 +1,19 @@
+.desktop-component {
+  display: block; /* Show by default */
+}
+.mobile-component {
+  display: none; /* Hide by default */
+}
+/* Hide the mobile component on screens larger than 768px */
+@media (min-width: 769px) {
+  .mobile-component {
+    display: none;
+  }
+}
+
+/* Hide the desktop component on screens smaller than 769px */
+@media (max-width: 768px) {
+  .desktop-component {
+    display: none;
+  }
+}
