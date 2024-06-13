@@ -24,16 +24,16 @@
     scrollbar-width: thin;
 }
 .plusbtn{
-    height: 50px; 
-    width: 50px;
-    font: 500 50px/48px "Roboto",sans-serif;
+    height: 70px; 
+    width: 70px;
+    font: 500 80px/48px "Roboto",sans-serif;
     border: none; 
     background-color: rgba(22, 0, 139, 1);
     border-radius: 50%;
     color: rgba(255, 255, 255, 1);
     position: sticky;
-    top: 85%;
-    left: 85%;
+    top: 80%;
+    left: 80%;
     z-index: 1;
 }
 .groupIcon {
@@ -42,14 +42,14 @@
 }
 
 .iconCircle {
-    width: 45px; /* Adjust as needed */
-    height: 45px; /* Adjust as needed */
+    width: 70px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px; 
-    font: 500 20px/21.59px "Roboto",sans-serif; 
+    margin-right: 30px; 
+    font: 500 40px/21.59px "Roboto",sans-serif; 
     color: rgba(255, 255, 255, 1);
 }
 
@@ -58,11 +58,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font: 500 24px/28px "Roboto",sans-serif;
+    font: 500 30px/28px "Roboto",sans-serif;
     color: rgba(0, 0, 0, 1);
 }
 .group{
-    margin: 25px;
+    margin: 45px;
     cursor: pointer;
     border-radius: 15px;
     

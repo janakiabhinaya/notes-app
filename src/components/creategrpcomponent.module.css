@@ -22,8 +22,11 @@
 }
 
 .grpcomp {
-    width: 640px;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 55%;
     background-color: rgba(255, 255, 255, 1); /* Bright shade background */
     padding: 20px;
 }
@@ -46,19 +49,20 @@
     margin-right: 15px;
 }
 .inputfld{
-    width: 420px;
-    height: 30px;
+    width: 70%;
+    height: 40%;
     border-radius: 20px;
     border-color: rgba(204, 204, 204, 1);
     
 }
 .inputfld::placeholder{
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     padding: 10px;
 }
 .chocolor{
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-size: 27.31px;
     font-weight: 500;
@@ -71,7 +75,7 @@
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     border-radius: 11px;
-    padding: 5px 25px;
+    padding: 5px;
 }
 .btndiv{
     display: flex;
